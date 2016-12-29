@@ -48,4 +48,8 @@ class AtomicFileSave {
 
         return $filename;
     }
+
+    public static function factory() {
+        return new self;
+    }
 }
